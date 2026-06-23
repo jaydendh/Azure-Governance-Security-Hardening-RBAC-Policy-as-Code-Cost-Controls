@@ -57,7 +57,6 @@ This isn't just an access-control exercise — it's the foundation of cloud secu
 
 *The Admin applies RBAC, Policy, and Budget controls to the Resource Group. The Junior Developer's attempt to create a resource is blocked by RBAC (403 Access Denied), and an oversized VM deployment is blocked by Azure Policy (Validation Failed) — even when attempted by a privileged account. The Budget control monitors spend independently and fires an email alert at the 80% threshold.*
 
-> 📌 **Note:** The diagram above is an SVG checked into `assets/architecture-diagram.svg`. Open it in any browser or image viewer, and feel free to rebuild it in draw.io / Lucidchart / Excalidraw if you want a different style — keep the relationships (Admin → Controls → Resource Group ← blocked attempts) the same.
 
 ## Tech Stack
 
